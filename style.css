@@ -9,6 +9,9 @@ body {
   padding-top: 10px;
 }
 
+a:link{
+  text-decoration: none!important;
+}
 h1, h3 {
   text-align: center;
   font-weight: 700;
