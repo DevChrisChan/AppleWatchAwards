@@ -11,3 +11,8 @@ h1, h3 {
   text-align: center;
   font-weight: 700;
 }
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
