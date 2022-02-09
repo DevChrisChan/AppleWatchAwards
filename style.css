@@ -1,0 +1,13 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+
+  background-color: #000000;
+  color: #ffffff;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+h1, h3 {
+  text-align: center;
+  font-weight: 700;
+}
