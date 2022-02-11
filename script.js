@@ -15,3 +15,4 @@ onReady(function() {
   setVisible('.page', true);
   setVisible('#loader', false);
 });
+
