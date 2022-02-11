@@ -9,4 +9,4 @@ assignees: ''
 
 **What award is missing from our site?**
 
-**Please screenshot the award.**
+**Please upload a screenshot of the award with an image sharing platform and paste a direct link here.**
