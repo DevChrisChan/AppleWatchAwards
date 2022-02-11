@@ -11,7 +11,7 @@ body {
 
 a:link, a:visited {
   color: #fff!important;
-  background-color: #888888!important;
+  background-color: #333333!important;
 }
 
 h1, h3 {
@@ -61,7 +61,7 @@ h1, h3 {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #888888;
+  background-color: #333333;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
