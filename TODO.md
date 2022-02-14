@@ -5,3 +5,13 @@
   - twitter: http://twitter.com/share?text=Check+out+this+tool+to+gain+Apple+Watch+awards+easy+and+quickly!&url=https://applewatchawards.netlify.app/
  
 - Add press button to navigate horizontal lists
+- better organise assets
+- compress all assets with lossless quality 
+- add "back" buttons to ?referred_from=place 
+- back to top button blocking text (add <br> after footer)
+- add silver workout awards
+- add social sharing buttons
+- click to enlarge cards like snap
+- make pinned nav bar full div
+- index all pages to google
+- change logo and splash screen into black
