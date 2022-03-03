@@ -23,11 +23,6 @@ h1, h3 {
   font-weight: 700;
 }
 
-.responsive {
-  width: 100%;
-  height: auto;
-}
-
 .row {
   align-items: stretch;
   display: flex;
@@ -67,7 +62,7 @@ h1, h3 {
   left: 0;
   background-color: #333333;
   overflow-x: hidden;
-  transition: 0.5s;
+  transition: 0.3s;
   padding-top: 60px;
 }
 
@@ -111,6 +106,12 @@ h1, h3 {
   cursor: pointer;
   padding: 10px;
   border-radius: 4px;
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+  user-select: none;  
+  cursor: default;
 }
 
 .blog-card{
@@ -141,4 +142,8 @@ h1, h3 {
 .blog-card a{
     text-decoration: none!important;
     color: black;
+}
+
+img {
+  max-width: 100px;
 }
