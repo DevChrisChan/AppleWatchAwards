@@ -1,4 +1,5 @@
-function onReady(callback) {
+console.log("Welcome to AppleWatchAwards.netlify.app!\n\nCheck out what the website is working on in the console!\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n")
+  function onReady(callback) {
   var intervalId = window.setInterval(function() {
     if (document.getElementsByTagName('body')[0] !== undefined) {
       window.clearInterval(intervalId);
@@ -16,3 +17,15 @@ onReady(function() {
   setVisible('#loader', false);
 });
 
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+
+var date = new Date(),
+    day = date.getDate(),
+    month = date.getMonth()+1;
+    year = date.getFullYear();
