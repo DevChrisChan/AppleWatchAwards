@@ -44,7 +44,9 @@
 	var scroll = new SmoothScroll('a[href*="#"]');
 </script>
 </head>
-<body>  
+<body>
+	<div id="loader"></div>
+	<div id="loaderText">Loading<span id="dot">.</span></div>
   <div class="page" style="display: none;">
     <a href="#"><button id="myBtn" title="Go to top">↑</button></a>
     <div class="pin" style="padding-right: 0%!important; position: sticky; top:0; background-color: #000;">
@@ -249,7 +251,7 @@
     <br><br><br>
 
   <p style="text-align: center; color: #808080;">Project by Chris. Not affliated with Apple.</p>
-    <div id="loader"></div>
+    
   </div>
 <script>
   var mybutton = document.getElementById("myBtn");
@@ -277,6 +279,20 @@ let totalLimited = countLimited
   window.onload = function(){
     document.getElementById('limitedAmount').innerHTML = countLimited;
 };
+
+window.dotsGoingUp = true;
+    var dots = window.setInterval( function() {
+        var wait = document.getElementById("dot");
+        if ( window.dotsGoingUp ) 
+            wait.innerHTML += ".";
+        else {
+            wait.innerHTML = wait.innerHTML.substring(1, wait.innerHTML.length);
+            if ( wait.innerHTML === "")
+                window.dotsGoingUp = true;
+        }
+        if ( wait.innerHTML.length > 2 )
+            window.dotsGoingUp = false;
+        }, 300);
 </script>
 </body>
 </html>
