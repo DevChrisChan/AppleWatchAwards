@@ -14,7 +14,6 @@ function setVisible(selector, visible) {
 
 onReady(function() {
   setVisible('.page', true);
-  setVisible('#loader', false);
 	setVisible('#loaderText', false);
 });
 
@@ -30,3 +29,4 @@ var date = new Date(),
     day = date.getDate(),
     month = date.getMonth()+1;
     year = date.getFullYear();
+

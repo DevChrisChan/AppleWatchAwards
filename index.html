@@ -31,8 +31,10 @@
 <meta name="description" content="Apple Watch Awards provides a guide to gain Apple Watch awards the fastest and easiest way. Providing limited edition awards, all workout awards, competition awards etc, we are the best guide for you to collect 'em all!">
 <link rel="stylesheet" type="text/css" href="style.css">
 <script src="script.js"></script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3840521099452662" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-B4ZVV22E32"></script>
+<script src="lazysizes.min.js" async></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -45,13 +47,14 @@
 </script>
 </head>
 <body>
-	<div id="loader"></div>
 	<div id="loaderText">Loading<span id="dot">.</span></div>
   <div class="page" style="display: none;">
-    <a href="#"><button id="myBtn" title="Go to top">↑</button></a>
+		<div id="goToTop"></div>
+    <a href="#goToTop"><button id="myBtn" title="Go to top">↑</button></a>
     <div class="pin" style="padding-right: 0%!important; position: sticky; top:0; background-color: #000;">
+			
     <div id="mySidenav" class="sidenav">
-  <a href="/index.html"><img src="assets/logo.png" style="width: 36px;" alt="logo"></a> 
+  <a href="/index.html"><img data-src="assets/logo.png" style="width: 36px;" class="lazyload" alt="logo"></a> 
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a><br>
   <a href="/blogs/index.html" onclick="closeNav()">Blogs</a>
   <a href="#faq" onclick="closeNav()">FAQs</a>
@@ -62,7 +65,7 @@
     <img src="assets/logo.png" style="width: 50px; display: block; margin-left: auto; margin-right: auto;" align="center" alt="Logo">
     <div class="content">
   <h1>Apple Watch Awards</h1>
-  <h3>Tool to collect 'em all the easy way!</h3>
+  <h2 style="text-align: center; font-weight: 900;">Tool to collect 'em all the easy way!</h2>
     This guide compiles a list of every Apple Watch Awards and the fastest & easiest way to earn them. We provide a list of active and upcoming limited edition awards, full list of 33 workout awards and much more. Start <a href="blogs/33-awards-in-5-hours.html" style="text-decoration: underline;">earning 33 awards now</a> within 5 hours!<br><br>
   The first day I got my Apple Watch I noticed the awards section in the Activity app. I instantly knew I have to collect 'em all - it's human instinct right? Add this page to your home screen now, start reading the guide and brag to your friends about your awards!<br><br>
   If you are a new Apple Watch owner, please click <a href="/new.html" style="text-decoration: underline;">here</a>.<br><br><div id="limited"></div>
@@ -87,28 +90,28 @@
     <div class="container">
   <div class="row">
     <!--<div class="card" id="limitedAward">
-      <img src="assets/" alt="">
-      <p id="card_awardName" class="card-text" style="font-weight: 700;">Award Name Award - Award requirement<br></p><br>Available on , 2022<br><a href="/blogs/.html">Check our blog to gain it the easiest way</a>.
+      <img data-src="assets/" class="lazyload" alt="">
+      <p id="card_awardName" class="card-text">Award Name Award - Award requirement<br></p><br>Available on , 2022<br><a href="/blogs/.html">Check our blog to gain it the easiest way</a>.
     </div>-->
     <div class="card" id="limitedAward">
-      <img src="assets/iwd2022.JPG" alt="iwd2022">
-      <p class="card-text" style="font-weight: 700;">International Women's Day Challenge Award - Workout for 20 minutes<br></p><br>Available on March 8th, 2022<br><a href="/blogs/international-womens-day-challenge-award-available-on-march-8th.html">Check our blog to gain it the easiest way</a>.
+      <img data-src="assets/iwd2022.JPG" class="lazyload" alt="iwd2022">
+      <p class="card-text">International Women's Day Challenge Award - Workout for 20 minutes<br></p><br>Available on March 8th, 2022<br><a href="/blogs/international-womens-day-challenge-award-available-on-march-8th.html">Check our blog to gain it the easiest way</a>.
     </div>
     <div class="card" id="limitedAward">
-      <img src="assets/heart22.PNG" alt="heart22">
-      <p class="card-text" style="font-weight: 700;">Heart Month Challenge Award - Earn 30 exercise minutes<br></p><br>Available on Febuary 14th, 2022
+      <img data-src="assets/heart22.PNG" class="lazyload" alt="heart22">
+      <p class="card-text">Heart Month Challenge Award - Earn 30 exercise minutes<br></p><br>Available on Febuary 14th, 2022
     </div>
     <div class="card" id="limitedAward">
-      <img src="assets/unity.PNG" alt="unity">
-      <p class="card-text" style="font-weight: 700;">Unity Challenge Award - Close move ring 7 days row<br></p><p>Available on Febuary 28th, 2022</p>
+      <img data-src="assets/unity.PNG" class="lazyload" alt="unity">
+      <p class="card-text">Unity Challenge Award - Close move ring 7 days row<br></p><p>Available on Febuary 28th, 2022</p>
     </div>
     <div class="card" id="limitedAward">
-      <img src="assets/lny22.PNG" alt="lny22">
-      <p class="card-text" style="font-weight: 700;">Lunar New Year Challenge 2022 - 20 minutes workout<br></p><p>Available on Febuary 15th, 2022</p>
+      <img data-src="assets/lny22.PNG" class="lazyload" alt="lny22">
+      <p class="card-text">Lunar New Year Challenge 2022 - 20 minutes workout<br></p><p>Available on Febuary 15th, 2022</p>
     </div>
     <div class="card" id="limitedAward">
-      <img src="assets/2022.PNG" alt="22">
-      <p class="card-text" style="font-weight: 700;">Ring in the New Year Challenge Award - Close all 3 rings 7 days row</p>
+      <img data-src="assets/2022.PNG" class="lazyload" alt="22">
+      <p class="card-text">Ring in the New Year Challenge Award - Close all 3 rings 7 days row</p>
     </div>
   </div>
 </div>
@@ -121,71 +124,71 @@
   <div class="container">
   <div class="row">
     <div class="card">
-      <img src="assets/7.jpg" alt="7 workout week">
+      <img data-src="assets/7.jpg" class="lazyload" alt="7 workout week">
       <p class="card-text">7-Workout Week</p>
     </div>
     <div class="card">
-      <img src="assets/cycling.jpg" alt="cycling">
+      <img data-src="assets/cycling.jpg" class="lazyload" alt="cycling">
       <p class="card-text">Cycling Award</p>
     </div>
      <div class="card">
-      <img src="assets/elliptical.jpg" alt="elliptical">
+      <img data-src="assets/elliptical.jpg" class="lazyload" alt="elliptical">
       <p class="card-text">Elliptical Award</p>
     </div>
      <div class="card">
-      <img src="assets/fst.jpg" alt="functional strength training">
+      <img data-src="assets/fst.jpg" class="lazyload" alt="functional strength training">
       <p class="card-text">Functional Strength Training Award</p>
     </div>
     <div class="card">
-      <img src="assets/hiking.jpg" alt="hiking">
+      <img data-src="assets/hiking.jpg" class="lazyload" alt="hiking">
       <p class="card-text">Hiking Award</p>
     </div>
     <div class="card">
-      <img src="assets/rowing.jpg" alt="rowing">
+      <img data-src="assets/rowing.jpg" class="lazyload" alt="rowing">
       <p class="card-text">Rowing Award</p>
     </div>
     <div class="card">
-      <img src="assets/running.jpg" alt="running">
+      <img data-src="assets/running.jpg" class="lazyload" alt="running">
       <p class="card-text">Running Award</p>
     </div>
     <div class="card">
-      <img src="assets/stair.jpg" alt="stair stepper">
+      <img data-src="assets/stair.jpg" class="lazyload" alt="stair stepper">
       <p class="card-text">Stair Stepper Award</p>
     </div>
     <div class="card">
-      <img src="assets/swimming.jpg" alt="swimming">
+      <img data-src="assets/swimming.jpg" class="lazyload" alt="swimming">
       <p class="card-text">Swimming Award</p>
     </div>
     <div class="card">
-      <img src="assets/walking.jpg" alt="wakling">
+      <img data-src="assets/walking.jpg" class="lazyload" alt="wakling">
       <p class="card-text">Walking Award</p>
     </div>
     <div class="card">
-      <img src="assets/yoga.jpg" alt="yoga">
+      <img data-src="assets/yoga.jpg" class="lazyload" alt="yoga">
       <p class="card-text">Yoga Award</p>
     </div>
     <div class="card">
-      <img src="assets/core.jpg" alt="core">
+      <img data-src="assets/core.jpg" class="lazyload" alt="core">
       <p class="card-text">Core Training Award</p>
     </div>
     <div class="card">
-      <img src="assets/hiit.jpg" alt="hiit">
+      <img data-src="assets/hiit.jpg" class="lazyload" alt="hiit">
       <p class="card-text">HIIT Award</p>
     </div>
     <div class="card">
-      <img src="assets/pilates.jpg" alt="pilates">
+      <img data-src="assets/pilates.jpg" class="lazyload" alt="pilates">
       <p class="card-text">Pilates Award</p>
     </div>
     <div class="card">
-      <img src="assets/taichi.jpg" alt="taichi">
+      <img data-src="assets/taichi.jpg" class="lazyload" alt="taichi">
       <p class="card-text">Tai Chi Award</p>
     </div>
     <div class="card">
-      <img src="assets/dance.jpg" alt="dance">
+      <img data-src="assets/dance.jpg" class="lazyload" alt="dance">
       <p class="card-text">Dance Award</p>
     </div>
     <div class="card">
-      <img src="assets/cooldown.jpg" alt="cooldown">
+      <img data-src="assets/cooldown.jpg" class="lazyload" alt="cooldown">
       <p class="card-text">Cooldown Award</p>
     </div>
   </div>
@@ -200,19 +203,19 @@
   <div class="container">
   <div class="row">
     <div class="card">
-      <img src="assets/compComplete.JPG" alt="competition complete">
+      <img data-src="assets/compComplete.JPG" class="lazyload" alt="competition complete">
       <p class="card-text">Competition Complete Award</p>
     </div>
     <div class="card">
-      <img src="assets/compWin1.JPG" alt="complete variation 1">
+      <img data-src="assets/compWin1.JPG" class="lazyload" alt="complete variation 1">
       <p class="card-text">Victory Over x Award</p>
     </div>
     <div class="card">
-      <img src="assets/compWin2.JPG" alt="complete variation 2">
+      <img data-src="assets/compWin2.JPG" class="lazyload" alt="complete variation 2">
       <p class="card-text">Victory Over x Award</p>
     </div>
     <div class="card">
-      <img src="assets/moreIcon1.PNG" alt="more other variations">
+      <img data-src="assets/moreIcon1.PNG" class="lazyload" alt="more other variations">
       <p class="card-text">... and much more! There are tons of variation to this award!</p>
     </div>
   </div>
@@ -280,19 +283,13 @@ let totalLimited = countLimited
     document.getElementById('limitedAmount').innerHTML = countLimited;
 };
 
-window.dotsGoingUp = true;
-    var dots = window.setInterval( function() {
-        var wait = document.getElementById("dot");
-        if ( window.dotsGoingUp ) 
-            wait.innerHTML += ".";
-        else {
-            wait.innerHTML = wait.innerHTML.substring(1, wait.innerHTML.length);
-            if ( wait.innerHTML === "")
-                window.dotsGoingUp = true;
-        }
-        if ( wait.innerHTML.length > 2 )
-            window.dotsGoingUp = false;
-        }, 300);
+var dots = window.setInterval( function() {
+    var wait = document.getElementById("dot");
+    if ( wait.innerHTML.length > 2 ) 
+        wait.innerHTML = "";
+    else 
+        wait.innerHTML += ".";
+    }, 300);
 </script>
 </body>
 </html>
