@@ -47,7 +47,7 @@
 </script>
 </head>
 <body>
-	<div id="loaderText">Loading<span id="dot">.</span></div>
+
   <div class="page" style="display: none;">
 		<div id="goToTop"></div>
     <a href="#goToTop"><button id="myBtn" title="Go to top">↑</button></a>
@@ -283,13 +283,6 @@ let totalLimited = countLimited
     document.getElementById('limitedAmount').innerHTML = countLimited;
 };
 
-var dots = window.setInterval( function() {
-    var wait = document.getElementById("dot");
-    if ( wait.innerHTML.length > 2 ) 
-        wait.innerHTML = "";
-    else 
-        wait.innerHTML += ".";
-    }, 300);
 </script>
 </body>
 </html>

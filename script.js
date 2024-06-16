@@ -14,7 +14,6 @@ function setVisible(selector, visible) {
 
 onReady(function() {
   setVisible('.page', true);
-	setVisible('#loaderText', false);
 });
 
 function openNav() {
